@@ -1,16 +1,25 @@
+package cs.exam;
 import java.util.*;
 import java.util.logging.Logger;
 
 public class ProjectSystem {
+    private static ProjectSystem instance = null;
     private User currentUser = null;
-    private ArrayList<Integer> COInfo = new ArrayList<>();
-    private ArrayList<Integer> PMInfo = new ArrayList<>();
-    private ArrayList<Integer> CO2Info = new ArrayList<>();
+    private ArrayList<Integer> coInfo = new ArrayList<>();
+    private ArrayList<Integer> pmInfo = new ArrayList<>();
+    private ArrayList<Integer> co2Info = new ArrayList<>();
     private final Map<String,User> users = new HashMap<>();
-    private final Map<Integer,Sensor> sensors = new HashMap<>();
+    public final Map<Integer,Sensor> sensors = new HashMap<>();
 
     static final Logger logger = Logger.getLogger(ProjectSystem.class.getName());
     static Scanner scannerObj = new Scanner(System.in);
+
+    public static ProjectSystem getInstance(){
+        if (instance == null){
+            instance = new ProjectSystem();
+        }
+        return instance;
+    }
 
     public Integer userMenu(){
         logger.info("1. Registrarse");
@@ -79,15 +88,15 @@ public class ProjectSystem {
 
     private Integer getSensorId(){
         logger.info("Ingresa los datos del sensor:");
-        logger.info("ID:");
-        var ID = scannerObj.nextInt();
+        logger.info("id:");
+        var id = scannerObj.nextInt();
         scannerObj.nextLine();
-        return ID;
+        return id;
     }
 
     private void printSensor(){
-        var ID = getSensorId();
-        var sensorFound = findSensor(ID);
+        var id = getSensorId();
+        var sensorFound = findSensor(id);
         if(sensorFound!=null){
             sensorFound.displayInfo();
         } else {
@@ -96,26 +105,32 @@ public class ProjectSystem {
     }
 
     private void getInfoCO(){
-
+        if(this.coInfo.isEmpty()){
+            logger.info("No hay información suficiente sobre el CO.");
+        }
     }
 
     private void getInfoPM(){
-
+        if(this.pmInfo.isEmpty()){
+            logger.info("No hay información suficiente sobre el PM.");
+        }
     }
 
     private void getInfoCO2(){
-
+        if(this.co2Info.isEmpty()){
+            logger.info("No hay información suficiente sobre el CO2.");
+        }
     }
 
-    private void addSensor(){
-        var ID = getSensorId();
-        var newSensor = new Sensor(ID);
+    public void addSensor(){
+        var id = getSensorId();
+        var newSensor = new Sensor(id);
         if(this.sensors.isEmpty()) {
-            this.sensors.put(ID,newSensor);
+            this.sensors.put(id,newSensor);
         } else {
-            var sensorFound = findSensor(ID);
+            var sensorFound = findSensor(id);
             if (sensorFound == null) {
-                this.sensors.put(ID, newSensor);
+                this.sensors.put(id, newSensor);
             } else {
                 logger.info("El sensor ya existe.");
             }
@@ -123,11 +138,11 @@ public class ProjectSystem {
     }
 
     private void removeSensor(){
-        var ID = getSensorId();
+        var id = getSensorId();
         if(!this.sensors.isEmpty()) {
-            var sensorFound = findSensor(ID);
+            var sensorFound = findSensor(id);
             if(sensorFound!=null){
-                this.sensors.remove(ID);
+                this.sensors.remove(id);
             } else {
                 logger.info("No se pudo encontrar el sensor.");
             }
@@ -136,15 +151,15 @@ public class ProjectSystem {
         }
     }
 
-    private Sensor findSensor(Integer ID){
-        if(this.sensors.containsKey(ID)){
-            return this.sensors.get(ID);
+    private Sensor findSensor(Integer id){
+        if(this.sensors.containsKey(id)){
+            return this.sensors.get(id);
         } else {
             return null;
         }
     }
 
-    private void login(String usernameTemp, String passwordTemp){
+    public void login(String usernameTemp, String passwordTemp){
         if(!this.users.isEmpty()) {
             if (this.users.containsKey(usernameTemp)) {
                 if (users.get(usernameTemp).getPassword().equals(passwordTemp)) {
@@ -164,7 +179,7 @@ public class ProjectSystem {
         }
     }
 
-    private void register(String usernameTemp, User newUser){
+    public void register(String usernameTemp, User newUser){
         if(this.users.isEmpty()){
             this.users.put(usernameTemp, newUser);
             this.currentUser = newUser;
@@ -178,7 +193,7 @@ public class ProjectSystem {
         }
     }
 
-    private void logout(){
+    public void logout(){
         this.currentUser = null;
     }
 }

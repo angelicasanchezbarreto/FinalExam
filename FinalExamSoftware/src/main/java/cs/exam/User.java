@@ -1,3 +1,4 @@
+package cs.exam;
 import java.util.logging.Logger;
 
 public class User {

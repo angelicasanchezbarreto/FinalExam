@@ -1,0 +1,85 @@
+SonarCloud plugins:
+  - CSS Code Quality and Security 1.4.2.2002 (cssfamily)
+  - IaC Code Quality and Security 1.0.1.763 (iac)
+  - PL/SQL Code Quality and Security 3.6.1.3873 (plsql)
+  - Scala Code Quality and Security 1.8.3.2219 (sonarscala)
+  - C# Code Quality and Security 8.27.0.35380 (csharp)
+  - Vulnerability Analysis 9.1.0-M1.13016 (security)
+  - Java Code Quality and Security 7.2.0.26923 (java)
+  - HTML Code Quality and Security 3.4.0.2754 (web)
+  - Flex Code Quality and Security 2.6.2.2641 (flex)
+  - XML Code Quality and Security 2.3.0.3155 (xml)
+  - VB.NET Code Quality and Security 8.27.0.35380 (vbnet)
+  - Swift Code Quality and Security 4.3.1.4892 (swift)
+  - CFamily Code Quality and Security 6.24.0.35414 (cpp)
+  - Python Code Quality and Security 3.6.0.8488 (python)
+  - Go Code Quality and Security 1.8.3.2219 (go)
+  - JaCoCo 1.1.1.1157 (jacoco)
+  - Kotlin Code Quality and Security 2.1.0.344 (kotlin)
+  - Mercurial 1.1.2 (scmmercurial)
+  - T-SQL Code Quality and Security 1.5.1.4340 (tsql)
+  - Apex Code Quality and Security 1.8.3.2219 (sonarapex)
+  - JavaScript/TypeScript Code Quality and Security 8.2.0.16042 (javascript)
+  - Ruby Code Quality and Security 1.8.3.2219 (ruby)
+  - Vulnerability Rules for C# 9.1.0-M1.13016 (securitycsharpfrontend)
+  - Vulnerability Rules for Java 9.1.0-M1.13016 (securityjavafrontend)
+  - License for SonarLint 8.0.0.22484 (license)
+  - Vulnerability Rules for JS 9.1.0-M1.13016 (securityjsfrontend)
+  - COBOL Code Quality 4.6.2.4876 (cobol)
+  - Vulnerability Rules for Python 9.1.0-M1.13016 (securitypythonfrontend)
+  - PHP Code Quality and Security 3.18.0.7718 (php)
+  - ABAP Code Quality and Security 3.9.1.3127 (abap)
+  - Configuration detection fot Code Quality and Security 1.0.0.32 (config)
+  - Vulnerability Rules for PHP 9.1.0-M1.13016 (securityphpfrontend)
+Global server settings:
+  - email.from=noreply@sonarcloud.io
+  - email.fromName=SonarCloud
+  - email.prefix=[SonarCloud]
+  - node_10_end_of_support_date=1620604800000
+  - node_10_grace_period_termination_date=1621814400000
+  - sonar.auth.bitbucket.enabled=true
+  - sonar.auth.microsoft.enabled=true
+  - sonar.core.id=1BD809FA-AWHW8ct9-T_TB3XqouNu
+  - sonar.core.serverBaseURL=https://sonarcloud.io
+  - sonar.core.startTime=2021-08-10T14:37:53+0200
+  - sonar.dbcleaner.weeksBeforeDeletingAllSnapshots=480
+  - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByMonth=4
+  - sonar.dbcleaner.weeksBeforeKeepingOnlyOneSnapshotByWeek=1
+  - sonar.lf.enableGravatar=true
+  - sonar.lf.logoWidthPx=105
+  - sonar.organizations.anyoneCanCreate=true
+  - sonar.organizations.createPersonalOrg=true
+  - sonar.plsql.file.suffixes=sql,tab,pkb
+  - sonar.tsql.file.suffixes=.tsql
+Project server settings:
+Project scanner properties:
+  - sonar.binaries=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/classes
+  - sonar.groovy.binaries=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/classes
+  - sonar.host.url=https://sonarcloud.io
+  - sonar.java.binaries=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/classes
+  - sonar.java.libraries=/home/lica/.m2/repository/org/jetbrains/annotations/21.0.1/annotations-21.0.1.jar
+  - sonar.java.source=11
+  - sonar.java.target=11
+  - sonar.java.test.binaries=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/test-classes
+  - sonar.java.test.libraries=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/classes,/home/lica/.m2/repository/org/jetbrains/annotations/21.0.1/annotations-21.0.1.jar
+  - sonar.junit.reportPaths=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/surefire-reports
+  - sonar.junit.reportsPath=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/surefire-reports
+  - sonar.libraries=/home/lica/.m2/repository/org/jetbrains/annotations/21.0.1/annotations-21.0.1.jar
+  - sonar.links.ci=
+  - sonar.links.homepage=
+  - sonar.links.issue=
+  - sonar.links.scm=
+  - sonar.links.scm_dev=
+  - sonar.moduleKey=angelicasanchezbarreto_FinalExam:org.example:FinalExam
+  - sonar.organization=angelicasanchezbarreto
+  - sonar.projectBaseDir=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware
+  - sonar.projectBuildDir=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target
+  - sonar.projectKey=angelicasanchezbarreto_FinalExam
+  - sonar.projectName=FinalExam
+  - sonar.projectVersion=1.0-SNAPSHOT
+  - sonar.scanner.app=ScannerMaven
+  - sonar.scanner.appVersion=3.9.0.2155/3.6.3
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/pom.xml,/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java
+  - sonar.tests=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/test/java
+  - sonar.working.directory=/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/target/sonar
