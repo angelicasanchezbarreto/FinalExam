@@ -1,6 +1,6 @@
 package cs.exam;
 import java.util.logging.Logger;
-import java.util.Random;
+import java.security.SecureRandom;
 
 public class Sensor {
     private Integer id;
@@ -33,7 +33,7 @@ public class Sensor {
     }
 
     public Sensor(Integer id){
-        var rand = new Random();
+        var rand = new SecureRandom();
         this.id = id;
         this.co = rand.nextInt(71);
         this.pm = rand.nextInt(150);

@@ -1,0 +1,58 @@
+
+6cs.exam.ProjectSystem#getSensorId()Ljava/lang/Integer;q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.javaY Y("1*ç
+1q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.javaZ Z(§
+°
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.javaZ Z(
+%0java.util.logging.Logger"__id*
+""ïí
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.javaZ Z(4
+
+%1void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+
+%0java.util.logging.Logger*!
+Ingresa los datos del sensor:2info(Ljava/lang/String;)§
+°
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java[ [(
+%2java.util.logging.Logger"__id*
+""˚¯
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java[ [(
+
+%3void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+
+%2java.util.logging.Logger*
+id:2info(Ljava/lang/String;)¿
+Ω
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java\ \(
+%4java.util.Scanner"__id*)*'
+cs.exam.ProjectSystem"
+
+scannerObj≈¬
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java\ \(%	
+%5int"java.util.Scanner#nextInt()I*
+
+%4java.util.Scanner2	nextInt()¿
+Ω
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java] ](
+%6java.util.Scanner"__id*)*'
+cs.exam.ProjectSystem"
+
+scannerObjÂ‚
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java] ](
+%7java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+%6java.util.Scanner2
+nextLine()"{
+q
+g/home/lica/Desktop/2021-1/Software/FinalExam/FinalExamSoftware/src/main/java/cs/exam/ProjectSystem.java^ ^(
+""B
+cs.exam.ProjectSystem
