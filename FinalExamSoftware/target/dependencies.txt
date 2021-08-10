@@ -1,0 +1,8 @@
+digraph "org.example:FinalExam:jar:1.0-SNAPSHOT" { 
+	"org.example:FinalExam:jar:1.0-SNAPSHOT" -> "org.jetbrains:annotations:jar:21.0.1:compile" ; 
+	"org.example:FinalExam:jar:1.0-SNAPSHOT" -> "org.testng:testng:jar:6.1.1:compile" ; 
+	"org.testng:testng:jar:6.1.1:compile" -> "junit:junit:jar:3.8.1:compile" ; 
+	"org.testng:testng:jar:6.1.1:compile" -> "org.beanshell:bsh:jar:2.0b4:compile" ; 
+	"org.testng:testng:jar:6.1.1:compile" -> "com.beust:jcommander:jar:1.12:compile" ; 
+	"org.testng:testng:jar:6.1.1:compile" -> "org.yaml:snakeyaml:jar:1.6:compile" ; 
+ } 

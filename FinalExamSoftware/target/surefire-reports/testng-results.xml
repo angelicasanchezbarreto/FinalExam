@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-10T18:10:30 PET" name="cs.exam.AppSystemTest" finished-at="2021-08-10T18:10:30 PET" duration-ms="215">
+    <groups>
+    </groups>
+    <test started-at="2021-08-10T18:10:30 PET" name="Command line test" finished-at="2021-08-10T18:10:30 PET" duration-ms="215">
+      <class name="cs.exam.AppSystemTest">
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseAddSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseAddSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseAddSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseGetSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseGetSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseGetSensor -->
+        <test-method signature="testCaseLogout()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseLogout" finished-at="2021-08-10T18:10:30 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseLogout -->
+        <test-method signature="testCaseRegister()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRegister" finished-at="2021-08-10T18:10:30 PET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRegister -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+        <test-method signature="testCaseRemoveSensor()[pri:0, instance:cs.exam.AppSystemTest@7e2d773b]" started-at="2021-08-10T18:10:30 PET" name="testCaseRemoveSensor" finished-at="2021-08-10T18:10:30 PET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseRemoveSensor -->
+      </class> <!-- cs.exam.AppSystemTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- cs.exam.AppSystemTest -->
+</testng-results>
